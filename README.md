@@ -1,23 +1,23 @@
 # telegram_bot_jokes
 
 To start the bot 
-Install all required dependencies
-pwd - Telebot\django-bot-server-tutorial
+Install all required dependencies -
+cd Telebot\django-bot-server-tutorial
 pip install -r requirements.txt 
 
-add bot token in chatbot_tutorial/views.py on line 121
+Add bot token in chatbot_tutorial/views.py on line 121
 
-download postgres
+Download postgres
 
-make migration for the db by typing cmd
+Make migration for the db by typing cmd -
 python manage.py makemigration
 python manage.py migrate
 
-start the server by cmd
+Start the server by cmd -
 python manage.py runserver
 
-download and launch ngrok 
-type cmd 
+Download and launch ngrok 
+type cmd -
 ngrok http 8000
 copy the ngrok forwarding url to use for webhook
 
