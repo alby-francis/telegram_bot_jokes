@@ -2,7 +2,7 @@
 
 To start the bot 
 Install all required dependencies -
-cd Telebot\django-bot-server-tutorial
+cd django-bot-server-tutorial
 pip install -r requirements.txt  .
 
 Add bot token in chatbot_tutorial/views.py on line 121
